@@ -1,1 +1,7 @@
-# SJF-Scheduling-Algo
+  SJF improves the efficiency of the CPU for real time- and time-sharing environments. The algorithm starts by firstly selecting the process with the shortest burst time, and as the process finishes execution and the CPU is available, the process with the next shortest burst time is allowed to execute. In the case that the two or more processes have the same burst time, another algorithm is used to determine a tie. The First Come First Served (FCFS) algorithm is used to determine which process runs first in that case, based on the arrival time of each process.
+
+  Shortest Job First algorithm is optimal because it moves shorter processes to the front of the waiting queue, thus shorter processes execute first and longer processes wait until the shorter ones are finished and the CPU is available again. This is good because the waiting time of shorter processes will be decreased more than the increase of waiting time of longer processes. Consequently, the average waiting time is reduced to the maximum extent.
+
+  There are two modes of CPU scheduling that are preemptive and non-preemptive, the scheduling that takes place once a process switches from the running state to the ready state or from the waiting state to the ready state is named preemptive scheduling, On the other hand, the scheduling that takes place once a process terminates or switches from the running to the waiting state this mode of CPU scheduling is named Non-Preemptive scheduling.
+
+  In this project, the focus is on the Non-preemptive Shortest Job First Scheduling Algorithm.
